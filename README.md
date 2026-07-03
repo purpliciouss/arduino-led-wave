@@ -24,6 +24,10 @@ A classic beginner Arduino Uno project where LEDs light up in sequence, creating
 
 Each LED's cathode (short leg) connects to Arduino's **GND** pin through a resistor. The anode (long leg) connects to its corresponding digital pin.
 
+## Circuit Setup
+<img width="444" height="256" alt="Screenshot 2026-07-03 at 13 16 10" src="https://github.com/user-attachments/assets/41ec5328-a9bb-49aa-8cb1-1b280d5e930a" />
+
+
 ## How It Works
 
 Inside the `loop()` function, the code lights up the LEDs in sequence (2 → 3 → 4 → 5 → 6 → 7) creating a forward wave, then repeats it in reverse (7 → 6 → 5 → 4 → 3 → 2). Since this runs continuously inside `loop()`, the effect never stops.
@@ -48,9 +52,6 @@ void loop() {
   }
 }
  ```
-
-## Circuit Setup
-<img width="444" height="256" alt="Screenshot 2026-07-03 at 13 16 10" src="https://github.com/user-attachments/assets/41ec5328-a9bb-49aa-8cb1-1b280d5e930a" />
 
 
 ## Notes
