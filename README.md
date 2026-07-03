@@ -15,12 +15,12 @@ A classic beginner Arduino Uno project where LEDs light up in sequence, creating
 
 | LED | Arduino Pin | Resistor |
 |-----|-------------|----------|
-| LED 1 | Pin 2 | 330 Ω |
-| LED 2 | Pin 3 | 330 Ω |
-| LED 3 | Pin 4 | 330 Ω |
-| LED 4 | Pin 5 | 330 Ω |
-| LED 5 | Pin 6 | 330 Ω |
-| LED 6 | Pin 7 | 330 Ω / 220 Ω |
+| LED 1 | Pin 7 | 330 Ω |
+| LED 2 | Pin 6 | 330 Ω |
+| LED 3 | Pin 5 | 330 Ω |
+| LED 4 | Pin 4 | 330 Ω |
+| LED 5 | Pin 3 | 330 Ω |
+| LED 6 | Pin 2 | 330 Ω / 220 Ω |
 
 Each LED's cathode (short leg) connects to Arduino's **GND** pin through a resistor. The anode (long leg) connects to its corresponding digital pin.
 
